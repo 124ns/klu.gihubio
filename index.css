@@ -1,4 +1,5 @@
 .home, .about-me {
+    color: rgb(4, 35, 37);;
     border: 1px solid;
     height: 300px;
     overflow: hidden;
@@ -8,7 +9,7 @@
 ul.nav-bar {
     list-style: none;
     display: flex;
-    background-color: rgb(27, 27, 27);
+    background-color: rgb(4, 35, 37);
     margin: 0px;
 }
 .nav-bar li {
