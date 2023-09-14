@@ -1,27 +1,66 @@
-.home, .about-me {
-    color: rgb(4, 35, 37);;
+
+body{
+    margin: 0;
+    font-family: cursive;
+    color: rgb(45, 45, 45);
+}
+
+#about-me h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.about-me-content {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 10%;
+}
+
+.about-me-box{
     border: 1px solid;
-    height: 300px;
-    overflow: hidden;
+    width: 50%;
+    margin-left: 5%;
+}
+.my-image{
+    width: 40%;
+}
+
+#home{
+    text-align: center;
+    height: 500px;
+}
+#home h1 {
+    font-style: italic;
+    padding-top: 125px;
+    font-size: 500%;
+    text-transform: capitalize;
+}
+#home p {
+    margin-top: -40px;
+    color: rgb(102, 95, 95);
 }
 
 
 ul.nav-bar {
+    margin: 0;
+    opacity: 80%;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
     list-style: none;
     display: flex;
-    background-color: rgb(4, 35, 37);
-    margin: 0px;
+    background-color: rgb(222, 222, 231);
 }
 .nav-bar li {
-    padding: 2%;
+    padding: 10px;
 }
 
 .nav-bar li:hover {
-    background-color: rgb(69, 69, 69);
+    background-color: rgb(219, 214, 214);
 }
 
 .nav-bar a {
-    color: rgb(231, 231, 231);
+    color: rgb(82, 81, 81);
     text-decoration: none;
     white-space: nowrap;
     text-transform: capitalize;
