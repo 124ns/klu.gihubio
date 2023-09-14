@@ -4,7 +4,28 @@ body{
     font-family: cursive;
     color: rgb(45, 45, 45);
 }
-
+/* projects section */
+#projects {
+    margin-bottom: 10%;
+}
+#projects h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+.my-projects{
+    display: flex;
+    justify-content: center;
+}
+.project {
+    border: 1px solid gray;
+    padding: 3%;
+    width: 35%;
+    margin: 2%;
+}
+.project img{
+    width: 100%;
+}
+/* about me */
 #about-me h1{
     text-align: center;
     text-transform: capitalize;
