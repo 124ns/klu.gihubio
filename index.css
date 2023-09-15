@@ -11,6 +11,7 @@ body{
 #projects h1{
     text-align: center;
     text-transform: capitalize;
+    font-size: 50;
 }
 .my-projects{
     display: flex;
@@ -29,6 +30,7 @@ body{
 #about-me h1{
     text-align: center;
     text-transform: capitalize;
+    font-size: 50;
 }
 
 .about-me-content {
